@@ -47,4 +47,4 @@ Spirte.prototype.init = function () {
     this.speed.run();
     this.color.draw();
     this.shape.change();
-}
+};
