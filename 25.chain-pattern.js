@@ -5,11 +5,11 @@
 
 var A = function (selector) {
     return new A.fn.init(selector);
-}
+};
 A.fn = A.prototype = {
     constructor: A,
     init: function (selector) {
         console.log(this.constructor);
     }
-}
+};
 A.fn.init.prototype = A.fn;
