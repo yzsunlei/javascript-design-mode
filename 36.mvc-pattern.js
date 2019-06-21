@@ -26,7 +26,7 @@ $(function() {
                 return this;
             }
         }
-   };
+   }();
    MVC.view = function () {
         var M = MVC.model;
         var V = {};
